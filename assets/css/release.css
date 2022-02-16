@@ -1,0 +1,153 @@
+.dropdown_header_banner_four {
+   background-image: url(../images/Press\ Release.png);
+   background-position: center;
+   background-size: cover;
+}
+
+.blog_cards {
+   width: 100%;
+   background-color: var(--MainColor);
+   border-radius: 20px;
+}
+
+.blog_cards_img_div {
+   width: 100%;
+   height: 350px;
+   border-radius: 20px;
+   background-image: url(../images/banne.png);
+   background-position: center;
+   background-size: cover;
+}
+
+.card_two {
+   background-image: url(../images/card_two.png);
+}
+
+.card_three {
+   background-image: url(../images/cart_three.png);
+}
+
+.blog_cards_img_div h3 {
+   font-size: 23px;
+   line-height: 35px;
+}
+
+.blog_detail{
+   background-image: url(../Images/Blog_Detail.png);
+   background-position: center;
+   background-size: cover;
+}
+
+.line_div_second {
+   height: 2px;
+   max-width: 100%;
+   background-color: var(--MainColor);
+}
+
+.blog_icons_div img {
+   width: 30px;
+}
+
+.blog_icons_div p {
+   font-size: 0.8rem;
+}
+
+.firstPara {
+   padding-right: 1.3rem;
+   border-right: 1px solid var(--MainColor);
+}
+
+.iconsFirstDiv {
+   padding-right: 1rem;
+   border-right: 1px solid var(--MainColor);
+}
+
+.iconsFirstDiv p {
+   color: var(--PrimaryColor);
+}
+
+.blog_cards_img_div h4 {
+   color: var(--PrimaryColor);
+   font-size: 15px;
+}
+
+.blog_cards_content p {
+   font-size: 16px;
+   font-weight: 500;
+}
+
+.press_release_div {
+   background-color: var(--relese);
+   padding: 0.2rem 2rem;
+   border-radius: 30px;
+   color: var(--MainColor);
+}
+
+.sub_icons span {
+   color: var(--PrimaryColor);
+}
+
+.blog_cards {
+   position: relative;
+   overflow: hidden;
+}
+.blog_cards:hover .bottomButton {
+   bottom: 0;
+}
+
+.bottomButton {
+   width: 100%;
+   padding: 0.5rem 0;
+   background-color: var(--PrimaryColor);
+   position: absolute;
+   bottom: -100px;
+   left: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   border-radius: 0 0 20px 20px;
+   transition: all 0.3s ease;
+}
+
+.bottomButton a {
+   font-size: 1.3rem;
+   color: var(--MainColor);
+}
+
+.inner_pagination {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.inner_pagination .pagenation_div {
+   width: 30px;
+   height: 30px;
+   background-color: var(--MainColor);
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: var(--PrimaryColor);
+   cursor: pointer;
+}
+
+.inner_pagination > div {
+   margin-right: 3rem;
+   color: var(--MainColor);
+   cursor: pointer;
+}
+
+.inner_pagination p {
+   color: var(--PrimaryColor);
+   cursor: pointer;
+}
+
+.blog_cards:hover a{
+   color: var(--MainColor)
+}
+
+.blog_cards_content p{
+   color: #000 !important;
+}

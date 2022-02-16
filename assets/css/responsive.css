@@ -1,0 +1,497 @@
+/* Responsive footer */
+
+/* Responsive For Mobile */
+@media screen and (min-width: 280px) and (max-width: 480px) {
+   footer .bottom_section {
+      padding: 0px;
+   }
+
+   .footer_para {
+      font-size: 10px;
+   }
+
+   .footer_para2 {
+      font-size: 10px;
+   }
+
+   .custom_design {
+      text-align: center;
+   }
+
+   .Field {
+      padding: 10px 20px;
+      font-size: 12px;
+   }
+
+   .footer_para2 {
+      font-size: 12px;
+   }
+
+   footer h4 {
+      font-size: 8px;
+   }
+
+   footer .Button {
+      padding: 10px 15px;
+      font-size: 12px;
+   }
+
+   footer ul.custom_nav {
+      padding-left: 0px;
+   }
+
+   footer li a {
+      font-size: 14px;
+   }
+
+   footer .custom_nav li a {
+      font-size: 9px;
+   }
+
+   .custom_nav {
+      justify-content: center;
+   }
+
+   footer h4 {
+      margin-bottom: 0px;
+   }
+
+   footer i {
+      font-size: 20px;
+   }
+
+   .bicon {
+      padding: 5px 7px;
+      font-size: 12px;
+   }
+
+   .icon {
+      padding: 5px 5px;
+   }
+}
+/* Responsive For Mobile */
+
+/* Responsive For Ipads & Tablets */
+@media screen and (min-width: 481px) and (max-width: 575px) {
+   footer .bottom_section {
+      padding: 0px;
+   }
+
+   .footer_para {
+      font-size: 14px;
+   }
+
+   .footer_para2 {
+      font-size: 14px;
+   }
+
+   .custom_design {
+      text-align: center;
+   }
+
+   .Field {
+      padding: 10px 20px;
+      font-size: 14px;
+   }
+
+   footer h4 {
+      font-size: 10px;
+   }
+
+   footer .Button {
+      padding: 10px 15px;
+      font-size: 14px;
+   }
+
+   footer ul.custom_nav {
+      padding-left: 0px;
+   }
+
+   footer li a {
+      font-size: 18px;
+   }
+
+   footer .custom_nav li a {
+      font-size: 12px;
+   }
+
+   .custom_nav {
+      justify-content: center;
+   }
+
+   footer h4 {
+      margin-bottom: 0px;
+   }
+
+   footer i {
+      font-size: 12px;
+   }
+
+   .bicon {
+      padding: 5px 7px;
+      font-size: 12px;
+   }
+
+   .icon {
+      padding: 5px 5px;
+   }
+}
+/* Responsive For Ipads & Tablets */
+
+/* Responsive For Ipads & Tablets */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+   footer .bottom_section {
+      padding: 0px;
+   }
+
+   .footer_para {
+      font-size: 14px;
+   }
+
+   .footer_para2 {
+      font-size: 14px;
+   }
+
+   .Field {
+      padding: 10px 20px;
+      font-size: 16px;
+   }
+
+   footer .Button {
+      padding: 10px 15px;
+      font-size: 16px;
+   }
+
+   footer li a {
+      font-size: 18px;
+   }
+
+   footer .custom_nav li a {
+      font-size: 12px;
+   }
+
+   .custom_nav {
+      justify-content: center;
+   }
+
+   footer h4 {
+      margin-bottom: 0px;
+      font-size: 14px;
+   }
+
+   footer i {
+      font-size: 16px;
+   }
+
+   .bicon {
+      padding: 5px 7px;
+      font-size: 16px;
+   }
+
+   .icon {
+      padding: 5px 5px;
+   }
+}
+/* Responsive For Ipads & Tablets */
+
+/* Responsive */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+   footer .bottom_section {
+      padding: 0px;
+   }
+
+   .footer_para {
+      font-size: 18px;
+   }
+
+   .footer_para2 {
+      font-size: 18px;
+   }
+
+   .Field {
+      padding: 10px 20px;
+      font-size: 18px;
+   }
+
+   footer .Button {
+      padding: 10px 15px;
+      font-size: 18px;
+   }
+
+   footer li a {
+      font-size: 18px;
+   }
+
+   footer .custom_nav li a {
+      font-size: 18px;
+   }
+
+   .custom_nav {
+      justify-content: center;
+   }
+
+   footer h4 {
+      margin-bottom: 0px;
+      font-size: 18px;
+   }
+
+   footer i {
+      font-size: 18px;
+   }
+
+   .bicon {
+      padding: 5px 7px;
+      font-size: 18px;
+   }
+
+   .icon {
+      padding: 5px 5px;
+   }
+}
+/* Responsive */
+/* Responsive */
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+   footer .bottom_section {
+      padding: 0px;
+   }
+
+   .footer_para {
+      font-size: 24px;
+   }
+
+   .footer_para2 {
+      font-size: 24px;
+   }
+
+   .Field {
+      padding: 10px 20px;
+      font-size: 24px;
+   }
+
+   footer .Button {
+      padding: 10px 15px;
+      font-size: 24px;
+   }
+
+   footer li a {
+      font-size: 24px;
+   }
+
+   footer .custom_nav li a {
+      font-size: 24px;
+   }
+
+   .custom_nav {
+      justify-content: center;
+   }
+
+   footer h4 {
+      margin-bottom: 0px;
+      font-size: 24px;
+   }
+
+   footer i {
+      font-size: 24px;
+   }
+
+   .bicon {
+      font-size: 24px;
+   }
+}
+/* Responsive */
+
+/* Responsive footer */
+@media (max-width: 1400px) {
+   .side_padding {
+      padding: 0 70px;
+   }
+   .custom_padding {
+      padding: 0 !important;
+   }
+}
+
+@media (max-width: 1200px) {
+   .side_padding {
+      padding: 0 50px;
+   }
+   .dropdown_header_banner h1 {
+      font-size: 50px;
+   }
+   .blog_cards_img_div h3 {
+      font-size: 14px;
+      line-height: normal;
+   }
+}
+
+@media (max-width: 740px) {
+   .line_div {
+      margin: auto;
+   }
+   .enterprise_div ul li {
+      list-style: none;
+      font-size: 16px;
+   }
+   .looking_for h2 {
+      font-size: 40px;
+   }
+   .find_out_how_call_content h1 {
+      font-size: 40px;
+   }
+   .find_out_how_call_content p {
+      font-size: 13px;
+   }
+   .Partner_up h1 {
+      font-size: 5rem;
+   }
+   .Partner_up p {
+      line-height: normal;
+      font-size: 13px;
+   }
+   .purchase_credits h1 {
+      font-size: 40px;
+   }
+   .purchase_credits p {
+      font-size: 13px;
+   }
+   .credits_card_div h2 {
+      font-size: 40px;
+   }
+   .credits_card_div h3 {
+      font-size: 44px;
+   }
+   .credits_card_div h4 {
+      font-size: 15px;
+   }
+   .news_adn_update h1 {
+      font-size: 40px;
+   }
+   .looking_for p {
+      font-size: 14px;
+   }
+   .header_banner_content p {
+      font-size: 14px;
+      line-height: normal;
+   }
+   .custom_text h1 {
+      font-size: 50px;
+   }
+   .custom_text p {
+      font-size: 14px;
+   }
+   .custom_text h3 {
+      font-size: 20px;
+   }
+}
+
+@media (max-width: 650px) {
+   .icons_div_inner {
+      border: none;
+   }
+   .user_div {
+      display: grid !important;
+      justify-content: center !important;
+   }
+   .dropdown_header_banner h1 {
+      font-size: 40px;
+      padding: 3rem 0;
+   }
+   .blog_icons_div {
+      display: none !important;
+   }
+}
+
+@media (max-width: 600px) {
+   .Partner_up h1 {
+      font-size: 2rem;
+   }
+}
+
+@media (max-width: 500px) {
+   .enterprise_div ul li {
+      font-size: 14px;
+   }
+   .news_adn_update h1 {
+      font-size: 30px;
+   }
+   .header_top p {
+      font-size: 10px;
+   }
+   .side_padding {
+      padding: 0px;
+   }
+   .find_out_how_call_content h1 {
+      font-size: 28px;
+   }
+   .purchase_credits h1 {
+      font-size: 26px;
+   }
+   .blog_content_div .blog_comment {
+      font-size: 13px;
+   }
+   .looking_for h2 {
+      font-size: 25px;
+   }
+   .blog_cards_content p {
+      font-size: 13px;
+   }
+}
+
+@media (max-width: 400px) {
+   .sub_icons {
+      display: block !important;
+   }
+   .sub_icons p {
+      margin-top: 0.6rem;
+   }
+   .inner_pagination > div {
+      display: none;
+   }
+}
+
+@media  (max-width: 1600px){
+   footer .custom_design form div{
+      display: flex;
+      flex-direction: column !important;
+   }
+   
+   footer .Field {
+      margin-right: 0px !important;
+      margin-bottom: 1rem;
+   }
+}
+
+@media (max-width: 1600px){
+   footer form button{
+      margin-top: 25px !important;
+   }
+}
+
+@media (max-width: 1024px) {
+   .para_text p{
+      font-size: 18px;
+   }
+   .table_text .table th,td{
+      font-size: 16px;
+   };
+}
+
+@media (max-width: 767px) {
+   .para_text p{
+      font-size: 16px;
+   }
+   .table_text .table th,td{
+      font-size: 12px;
+   }
+}
+
+@media (min-width:851px){
+   .mobile_view{
+      display: none;
+   }
+}
+
+@media (max-width:850px){
+   .table_text{
+      display: none;
+   }
+}
