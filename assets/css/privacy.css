@@ -200,6 +200,13 @@ i {
    box-shadow: none !important;
 }
 
+.accordion-item{
+   border: none;
+}
+.accordion-item p{
+   padding-top: -50px;
+}
+
 /* login css */
 
 .loginsection {
