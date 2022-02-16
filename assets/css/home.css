@@ -269,6 +269,12 @@ header option {
    color: white;
 }
 
+.body-white{
+   z-index: 1;
+   background-image: none;
+   color: var(--Dark) !important;
+}
+
 
 /* 50vh css */
 

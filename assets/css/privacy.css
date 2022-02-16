@@ -257,3 +257,30 @@ input.form-control::placeholder{
 .Details h3{
    color: var(--PrimaryColor);
 }
+
+.blog_detail_social_icon{
+   align-items: center;
+   font-size: 20px;
+   color: var(--MainColor);
+}
+
+.blog_detail_social_icon i{
+   color: var(--PrimaryColor);
+}
+
+.blog_detail_social_icon span{
+   font-size: 18px;
+   color: var(--PrimaryColor) !important;
+}
+
+.blog_detail_social_icon a:hover{
+   cursor: pointer;
+   border: 2px solid var(--PrimaryColor);
+   padding: 5px 0px;
+   border-radius: 20px;
+}
+
+.line_div_2 {
+   height: 6px;
+   background-color: var(--PrimaryColor);
+}
