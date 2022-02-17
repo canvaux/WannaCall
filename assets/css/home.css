@@ -1,17 +1,17 @@
 /* header nav */
-header .nav a{
+header .nav a {
    color: var(--MainColor);
 }
 
-header .LoginButton a{
+header .LoginButton a {
    color: var(--MainColor);
 }
 
-header .nav a:hover{
+header .nav a:hover {
    color: var(--PrimaryColor);
 }
 
-header img{
+header img {
    max-width: 235px;
    width: 100%;
 }
@@ -35,7 +35,6 @@ header select {
    border: 2px solid var(--PrimaryColor);
    border-radius: 30px;
    padding: 0.2rem 1rem;
-   
 }
 header option {
    color: var(--Dark);
@@ -56,22 +55,22 @@ header option {
    font-size: 24px;
    line-height: 36px;
 }
-.header_incons_div i:hover{
+.header_incons_div i:hover {
    cursor: pointer;
    background-color: var(--PrimaryColor);
    height: 40px;
    width: 40px;
    border-radius: 50%;
 }
-.bottom_section a i:hover{
-   transition: all .5s ease-in-out;
+.bottom_section a i:hover {
+   transition: all 0.5s ease-in-out;
    transform: scale(1.2);
 }
 
-.credits_card_div:hover{
+.credits_card_div:hover {
    background-color: var(--light);
 }
-.credits_card_div:hover > *{
+.credits_card_div:hover > * {
    color: var(--MainColor);
 }
 /* header */
@@ -100,15 +99,15 @@ header option {
 /* find out how wanna call */
 
 /* partner Up Section */
-.Partner_up{
-   overflow: hidden;
+.Partner_up {
+   /* overflow: hidden; */
    border-radius: 30px !important;
 }
 
 .Partner_up .row {
    border-radius: 30px;
    background: var(--CircleCl);
-   height: 50vh;
+   /* height: 50vh; */
 }
 .Partner_up h1 {
    font-size: 50px;
@@ -242,7 +241,7 @@ header option {
 }
 
 /* changes of select */
-.selectsection option{
+.selectsection option {
    margin: 0%;
    padding: 0%;
    /* max-width: calc(100% +1rem) !important; */
@@ -250,7 +249,7 @@ header option {
 
 /* new css */
 
-.navbar-nav .nav-item{
+.navbar-nav .nav-item {
    color: white;
    margin: 0 12px;
    font-size: 18px;
@@ -264,34 +263,35 @@ header option {
    color: white;
 }
 
-.navbar-nav .nav_active{
+.navbar-nav .nav_active {
    background: var(--PrimaryColor);
    color: white;
 }
 
-.body-white{
+.body-white {
    z-index: 1;
    background-image: none;
    color: var(--Dark) !important;
 }
 
-
 /* 50vh css */
 
-.find_out_how_wannCall , .Partner_up , .purchase_credits {
+/* .find_out_how_wannCall,
+.Partner_up,
+.purchase_credits {
    height: 50vh;
-}
+} */
 
-.find_out_how_wannCall h4{
+.find_out_how_wannCall h4 {
    font-size: 16px;
 }
-.purchase_credits{
+.purchase_credits {
    z-index: 9;
 }
-.Partner_up  .w-40 {
+.Partner_up .w-40 {
    z-index: -1;
 }
 
-.credits_card_div  img{
+.credits_card_div img {
    width: 50px;
 }

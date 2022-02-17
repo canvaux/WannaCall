@@ -256,11 +256,11 @@
    }
 
    .footer_para {
-      font-size: 24px;
+      font-size: 18px;
    }
 
    .footer_para2 {
-      font-size: 24px;
+      font-size: 18px;
    }
 
    .Field {
@@ -404,6 +404,9 @@
    .Partner_up h1 {
       font-size: 2rem;
    }
+   .heading_lg {
+      font-size: 2.5rem !important;
+   }
 }
 
 @media (max-width: 500px) {
@@ -434,6 +437,11 @@
    .blog_cards_content p {
       font-size: 13px;
    }
+   .logindiv_button_div {
+      display: block !important;
+      place-content: center;
+      text-align: center !important;
+   }
 }
 
 @media (max-width: 400px) {
@@ -448,50 +456,52 @@
    }
 }
 
-@media  (max-width: 1600px){
-   footer .custom_design form div{
+@media (max-width: 1600px) {
+   footer .custom_design form div {
       display: flex;
       flex-direction: column !important;
    }
-   
+
    footer .Field {
       margin-right: 0px !important;
       margin-bottom: 1rem;
    }
 }
 
-@media (max-width: 1600px){
-   footer form button{
+@media (max-width: 1600px) {
+   footer form button {
       margin-top: 25px !important;
    }
 }
 
 @media (max-width: 1024px) {
-   .para_text p{
+   .para_text p {
       font-size: 18px;
    }
-   .table_text .table th,td{
+   .table_text .table th,
+   td {
       font-size: 16px;
-   };
+   }
 }
 
 @media (max-width: 767px) {
-   .para_text p{
+   .para_text p {
       font-size: 16px;
    }
-   .table_text .table th,td{
+   .table_text .table th,
+   td {
       font-size: 12px;
    }
 }
 
-@media (min-width:851px){
-   .mobile_view{
+@media (min-width: 851px) {
+   .mobile_view {
       display: none;
    }
 }
 
-@media (max-width:850px){
-   .table_text{
+@media (max-width: 850px) {
+   .table_text {
       display: none;
    }
 }

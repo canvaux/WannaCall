@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Island+Moments&family=Lato:wght@300;400;700;900&family=Libre+Baskerville:ital@1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
 
 * {
@@ -45,7 +44,7 @@ a {
    text-decoration: none;
 }
 
-.active a{
+.active a {
    cursor: pointer;
    color: var(--PrimaryColor);
 }
@@ -68,12 +67,12 @@ a {
 
 /* Global Classes */
 
-.ownrow{
+.ownrow {
    display: flex;
    flex-wrap: wrap;
 }
 
-.owncol{
+.owncol {
    flex: 1 1 17rem;
    text-align: center;
    background-color: #042224;
@@ -82,7 +81,7 @@ a {
    border-radius: 24px;
 }
 
-.owncol h4{
+.owncol h4 {
    color: var(--MainColor);
 }
 
@@ -92,49 +91,49 @@ a {
    margin-bottom: 25px;
 }
 
-.owncol h4:last-child{
-   color: #23AAB4;
+.owncol h4:last-child {
+   color: #23aab4;
 }
 
-.ownrow:hover{
+.ownrow:hover {
    cursor: pointer;
 }
 
-.owncol:hover{
+.owncol:hover {
    background-color: var(--MainColor);
 }
 
-.owncol:hover h4{
+.owncol:hover h4 {
    color: var(--Dark);
 }
 
-.owncol:hover h4:last-child{
-   color: #23AAB4;
+.owncol:hover h4:last-child {
+   color: #23aab4;
 }
 
-.owncol:hover svg{
+.owncol:hover svg {
    transform: scale(1.4);
 }
 
-.mt-6{
+.mt-6 {
    margin-top: 6rem;
 }
 
-.w-60{
+.w-60 {
    width: 70%;
 }
 
-.w-90{
+.w-90 {
    width: 100%;
-   height: 50vh !important;
+   /* height: 50vh !important; */
 }
 
-.w-85{
+/* .w-85 {
    width: 90%;
    height: 50vh !important;
-}
-
+} */
+/* 
 .w-40{
    width: 100%;
    height: 48vh;
-}
+} */
