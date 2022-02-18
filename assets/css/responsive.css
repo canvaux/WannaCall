@@ -505,3 +505,61 @@
       display: none;
    }
 }
+
+
+
+/* header responsive css */
+@media (max-width : 768px){
+   body{
+      background-attachment: fixed;
+   }
+   header{
+      position: ;
+   }
+   .roww {
+      flex-direction: column-reverse;
+   }
+   .roww #navbarNavAltMarkup{
+      justify-content: end !important;
+   }
+   .roww .navbar-nav a:last-child{
+      margin: 0px;
+   }
+   .roww .navbar-nav a{
+      padding: 5px 30px !important;
+      margin-bottom: 8px;
+   }
+   .navbar-toggler:focus{
+      box-shadow: none;
+   }
+   .navbar-nav {
+      margin-top: 20px;
+      align-items: center;
+   }
+   .collpor , .roww .w-100{
+      width: 97% !important;
+      justify-content: space-between;
+   }
+   .navbar-toggler-icon{
+      line-height: 2rem;
+   }
+   .navbar-toggler-icon i{
+      font-size: 28px;
+   }
+
+   header .dropdown_header{
+      background-attachment: fixed;
+   }
+
+   .custom_color{
+      overflow-x: hidden;
+   }
+   
+   .navbar-brand{
+      margin-left: 10px;
+   }
+
+   header .buttonclass{
+      margin-left: 10px;
+   }
+}
