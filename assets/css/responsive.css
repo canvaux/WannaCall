@@ -579,7 +579,7 @@
    }
 
    header .dropdown_header {
-      background-attachment: fixed;
+      /* background-attachment: fixed; */
    }
 
    .custom_color {
