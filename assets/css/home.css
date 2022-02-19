@@ -107,7 +107,11 @@ header option {
 .Partner_up .row {
    border-radius: 30px;
    background: var(--CircleCl);
+   overflow: hidden;
    /* height: 50vh; */
+}
+.Partner_up .enterprise_div {
+   padding: 0 0.5rem;
 }
 .Partner_up h1 {
    font-size: 50px;

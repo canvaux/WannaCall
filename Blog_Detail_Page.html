@@ -34,9 +34,8 @@
 <body class="blog_bg">
 
     <header>
-        <div class="container-fluid">
-            <div class="row dropdown_header dropdown_header_banner blog_detail py-4">
-
+        <div class="container-fluid dropdown_header dropdown_header_banner blog_detail">
+            <div class="row  py-4">
                 <div class="container-fluid side_padding py-3">
                     <div class="roww d-flex justify-content-between align-items-center">
                         <nav class="navbar navbar-expand-lg w-100">
@@ -89,13 +88,13 @@
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <h1>Lorem Ipsum <br>
-                            Dolor Sit Adipiscing
-                        </h1>
-                    </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1>Lorem Ipsum <br>
+                        Dolor Sit Adipiscing
+                    </h1>
                 </div>
             </div>
 
@@ -105,14 +104,14 @@
     <main>
         <section class="side_padding">
             <div class="container-fluid">
-                <div class="row d-flex justify-content-center mt-5">
-                    <img src="./assets/Images/Blog_Image.png" class=" w-75 mt-5">
+                <div class="row d-flex justify-content-center mt-1 mt-md-5">
+                    <img src="./assets/Images/Blog_Image.png" class="w-100 w-md-75 mt-3 mt-md-5">
                 </div>
             </div>
         </section>
 
         <section class="Details side_padding">
-            <div class="container-fluid py-5">
+            <div class="container-fluid py-2 py-md-5">
                 <div class="row">
                     <div class="col-12">
                         <h3></h3>
@@ -223,27 +222,46 @@
                 <div class="row">
 
                     <hr class="mt-5">
-                    <div class="col-6">
-                        <div class="ms-3">
+                    <div class="col-12 col-md-6">
+                        <div class="ms-3 text-center text-md-start">
                             <h4 class="py-3">
                                 Share This Post
                             </h4>
                         </div>
                     </div>
-                    <div class="col-6 d-flex justify-content-end">
-                        <div class="blog_detail_social_icon d-flex">
-                            <a href="https://twitter.com/" class=" me-3">
-                                <i class="fab fa-twitter ms-4 me-2"></i>
-                                <span class="me-4"> Twitter </span>
-                            </a>
-                            <a href="https://www.instagram.com/" class=" me-3">
-                                <i class="fab fa-instagram ms-4 me-2"></i>
-                                <span class="me-4"> Instagram </span>
-                            </a>
-                            <a href="https://www.facebook.com/" class=" me-3">
-                                <i class="fab fa-facebook-f ms-4 me-2"></i>
-                                <span class="me-4"> Facebook </span>
-                            </a>
+
+                    <div
+                        class="col-12 col-sm-12 col-md-6 d-flex justify-content-md-end justify-content-center align-items-center mb-4 mb-md-0 pb-3">
+                        <div class="blog_detail_social_icon">
+                            <div class="row ">
+                                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center">
+                                    <a href="https://twitter.com/" class="me-3 d-flex align-items-center ">
+                                        <i class="fab fa-twitter ms-4 me-2"></i>
+                                        <div>
+                                            <span class="me-4"> Twitter </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center my-3 my-md-0">
+                                    <a href="https://www.instagram.com/" class=" me-3 d-flex align-items-center ">
+                                        <i class="fab fa-instagram ms-4 me-2"></i>
+                                        <div>
+                                            <span class="me-4"> Instagram </span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center">
+                                    <a href="https://www.facebook.com/" class=" me-3 d-flex align-items-center">
+                                        <i class="fab fa-facebook-f ms-4 me-2"></i>
+                                        <div>
+                                            <span class="me-4"> Facebook </span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+
+
                         </div>
                     </div>
                     <hr class="">
@@ -454,7 +472,9 @@
             <div class="side_padding row pt-5 pb-md-5 pb-sm-2 gx-sm-0">
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4">
                     <div>
-                        <img src="./assets/Images/logo.png">
+                        <div class="text-center text-md-start">
+                            <img src="./assets/Images/logo.png">
+                        </div>
                         <div>
                             <p class="text-center text-md-start footer_para pe-md-5 pe-sm-1 pt-4 pb-md-4 pb-sm-1">
                                 WannaCall LTD, Kemp House, City Road, London, EC1V 2NX, UNITED KINGDOM
@@ -475,7 +495,7 @@
                 </div>
 
                 <div
-                    class="custom_design col-lg-6 col-md-4 col-sm-12 col-xl-4 d-flex justify-content-center justify-content-md-start justify-content-xl-center">
+                    class="col-12 col-sm-12 col-md-4 col-lg-6 col-sm-12 col-xl-4 d-flex justify-content-center justify-content-md-start justify-content-xl-center custom_design">
                     <div>
                         <h2 class="footer_heading">
                             CONTACT US
@@ -493,7 +513,7 @@
                 </div>
 
                 <div
-                    class="custom_design col-sm-12 col-md-6 col-xl-4 mt-sm-0 mt-md-0 justify-content-start justify-content-xxl-center">
+                    class="custom_design col-sm-12 col-md-8 col-xl-4 mt-sm-0 mt-md-0 justify-content-start justify-content-xxl-center">
                     <h2 class="footer_heading mt-4 mt-sm-0 mt-md-0">
                         NEWSLETTER
                     </h2>
@@ -510,7 +530,7 @@
                             </div>
                         </form>
 
-                        <ul class="d-flex pt-md-5 pt-sm-0 custom_nav ps-sm-0">
+                        <ul class="d-flex mt-0 mt-lg-3 custom_nav ps-sm-0">
                             <li class="border-right pe-2 pe-sm-1 pe-lg-2"><a href="./terms.html"> Term and Condition
                                 </a></li>
                             <li class="border-right pe-2 pe-sm-1 pe-lg-2 ps-2"><a href="./privacy.html"> Privacy Policy
@@ -519,6 +539,7 @@
                         </ul>
                     </div>
                 </div>
+
             </div>
         </div>
         <div class="container-fluid p-2 p-sm-3">
