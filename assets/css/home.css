@@ -1,4 +1,11 @@
 /* header nav */
+.header_sm_div {
+   display: none;
+}
+.heading_lg_div {
+   display: block;
+}
+
 header .nav a {
    color: var(--MainColor);
 }
@@ -15,8 +22,6 @@ header img {
    max-width: 235px;
    width: 100%;
 }
-
-header nav a
 
 /* header nav */
 
@@ -42,7 +47,7 @@ header option {
 .header_incons_div {
    display: flex;
    justify-content: space-around;
-   align-items: center;
+   /* align-items: center; */
 }
 .header_incons_div i {
    font-size: 1.4rem;
@@ -51,6 +56,15 @@ header option {
    height: 40px;
    width: 40px;
 }
+
+.header_incons_div_one i {
+   font-size: 1.4rem;
+   color: var(--MainColor);
+   line-height: 40px;
+   height: 40px;
+   width: 40px;
+}
+
 .header_banner_content p {
    font-size: 24px;
    line-height: 36px;
