@@ -1,0 +1,315 @@
+/* header nav */
+.header_sm_div {
+   display: none;
+}
+.heading_lg_div {
+   display: block;
+}
+
+header .nav a {
+   color: var(--MainColor);
+}
+
+header .LoginButton a {
+   color: var(--MainColor);
+}
+
+header .nav a:hover {
+   color: var(--PrimaryColor);
+}
+
+header img {
+   max-width: 235px;
+   width: 100%;
+}
+
+/* header nav */
+
+/* header */
+.header_top {
+   background-color: var(--SecondaryColor);
+}
+header select {
+   outline: none;
+   color: var(--MainColor);
+   background-color: transparent;
+   border: none;
+}
+
+.dropdown_header .select {
+   border: 2px solid var(--PrimaryColor);
+   border-radius: 30px;
+   padding: 0.2rem 1rem;
+}
+header option {
+   color: var(--Dark);
+}
+.header_incons_div {
+   display: flex;
+   justify-content: space-around;
+   /* align-items: center; */
+}
+.header_incons_div i {
+   font-size: 1.4rem;
+   color: var(--MainColor);
+   line-height: 40px;
+   height: 40px;
+   width: 40px;
+}
+
+.header_incons_div_one i {
+   font-size: 1.4rem;
+   color: var(--MainColor);
+   line-height: 40px;
+   height: 40px;
+   width: 40px;
+}
+
+.header_banner_content p {
+   font-size: 24px;
+   line-height: 36px;
+}
+.header_incons_div i:hover {
+   cursor: pointer;
+   background-color: var(--PrimaryColor);
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+}
+.bottom_section a i:hover {
+   transition: all 0.5s ease-in-out;
+   transform: scale(1.2);
+}
+
+.credits_card_div:hover {
+   background-color: var(--light);
+}
+.credits_card_div:hover > * {
+   color: var(--MainColor);
+}
+/* header */
+
+/* find out how wanna call */
+.find_out_how_heading h4 {
+   color: var(--MainColor);
+   font-size: 20px !important;
+}
+.line_div {
+   height: 6px;
+   max-width: 38%;
+   margin-left: 31%;
+   background-color: var(--PrimaryColor);
+}
+.find_out_how_call_content h1 {
+   font-size: 40px;
+   font-weight: bold;
+   color: var(--MainColor);
+}
+.find_out_how_call_content p {
+   color: var(--MainColor);
+   font-size: 18px;
+   font-weight: 300;
+}
+/* find out how wanna call */
+
+/* partner Up Section */
+.Partner_up {
+   /* overflow: hidden; */
+   border-radius: 30px !important;
+}
+
+.Partner_up .row {
+   border-radius: 30px;
+   background: var(--CircleCl);
+   overflow: hidden;
+   /* height: 50vh; */
+}
+.Partner_up .enterprise_div {
+   padding: 0 0.5rem;
+}
+.Partner_up h1 {
+   font-size: 50px;
+}
+.Partner_up p {
+   font-size: 18px;
+   line-height: 28px;
+}
+/* partner Up Section */
+
+/* Credit Money Section */
+.purchase_credits h1 {
+   font-size: 40px;
+   color: var(--MainColor);
+}
+.purchase_credits p {
+   color: var(--MainColor);
+   font-size: 20px;
+   font-weight: 400;
+}
+.credits_card_div {
+   width: 100%;
+   height: 100%;
+   background-color: var(--smBlack);
+   border-radius: 8px;
+}
+.credits_card_div h2 {
+   color: var(--PrimaryColor);
+   font-size: 36px;
+}
+.credits_card_div h3 {
+   font-size: 40px;
+   color: var(--MainColor);
+   font-weight: 700;
+}
+.credits_card_div h4 {
+   color: var(--PrimaryColor);
+   font-size: 25px;
+}
+/* Credit Money Section */
+
+/* Enterprise Solutions */
+.enterprise_div ul li {
+   color: var(--MainColor);
+   font-size: 20px;
+}
+/* Enterprise Solutions */
+
+/* NEWS AND UPDATES */
+.news_adn_update h1 {
+   font-size: 50px;
+}
+
+.blog_cards {
+   width: 100%;
+   background-color: var(--MainColor);
+   border-radius: 20px;
+}
+.blog_card_image {
+   width: 100%;
+   height: auto;
+}
+.blog_card_image img {
+   width: 100%;
+}
+.icons_div_inner {
+   display: flex;
+   align-items: center;
+   border-right: 2px solid var(--smoothGray);
+}
+
+.icons_div_inner p {
+   margin-bottom: 0;
+   font-size: 0.9rem;
+   font-weight: 300;
+   margin-left: 1.5rem;
+   color: var(--smoothGray);
+}
+.second_icons_div {
+   border: none;
+}
+.blog_content_div h3 {
+   font-size: 22px;
+   font-weight: 600;
+}
+.blog_content_div .blog_comment {
+   font-size: 18px;
+   color: var(--smoothGray);
+}
+.user_div {
+   border-top: 1px solid var(--smoothGray);
+}
+.user_image_div {
+   width: 50px;
+   height: 50px;
+}
+.user_image_div img {
+   width: 100%;
+   border-radius: 50%;
+}
+.user_div h4 {
+   font-size: 1.2rem;
+   margin-left: 1rem;
+}
+/* NEWS AND UPDATES */
+
+/* CAREER OPPOTUNITIES */
+.looking_for h2 {
+   font-size: 62px;
+   font-weight: 600;
+   color: var(--MainColor);
+}
+.looking_for p {
+   color: var(--MainColor);
+   font-size: 19px;
+   font-weight: 500;
+   line-height: 30px;
+}
+.looking_for span {
+   color: var(--darkSm);
+}
+/* CAREER OPPOTUNITIES */
+
+.slick-dots li.slick-active button:before {
+   color: var(--MainColor) !important;
+   transform: scale(3);
+}
+
+.slick-dots li button:before {
+   color: var(--MainColor) !important;
+}
+
+/* changes of select */
+.selectsection option {
+   margin: 0%;
+   padding: 0%;
+   /* max-width: calc(100% +1rem) !important; */
+}
+
+/* new css */
+
+.navbar-nav .nav-item {
+   color: white;
+   margin: 0 12px;
+   font-size: 18px;
+   padding: 8px 20px !important;
+   font-weight: 600;
+   border-radius: 50px;
+}
+
+.navbar-nav .nav-item:hover {
+   background: var(--PrimaryColor);
+   color: white;
+}
+
+.navbar-nav .nav_active {
+   background: var(--PrimaryColor);
+   color: white;
+}
+
+.body-white {
+   z-index: 1;
+   background-image: none;
+   color: var(--Dark) !important;
+}
+
+/* 50vh css */
+
+/* .find_out_how_wannCall,
+.Partner_up,
+.purchase_credits {
+   height: 50vh;
+} */
+
+.find_out_how_wannCall h4 {
+   font-size: 16px;
+}
+.purchase_credits {
+   z-index: 9;
+}
+.Partner_up .w-40 {
+   z-index: -1;
+}
+
+.credits_card_div img {
+   width: 50px;
+}

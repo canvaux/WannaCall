@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Island+Moments&family=Lato:wght@300;400;700;900&family=Libre+Baskerville:ital@1&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Colors */
+
+:root {
+   --PrimaryColor: #23aab4;
+   --SecondaryColor: #197e87;
+   --CircleCl: radial-gradient(50% 52.42% at 50% 47.58%, #23aab4 0%, #197e87 100%);
+   --MainColor: #fff;
+   --SmoothWhite: #e1e1e1;
+   --Dark: #000;
+   --DarkSm: #c4c4c4;
+   --bodyColor: #021112;
+   --lightSKy: #6abfdc;
+   --DarkSky: #0c7497;
+   --smBlack: #042224;
+   --light: #1d949d;
+   --smoothGray: #747474;
+   --darkSm: #1d1d1d;
+}
+
+/* Colors */
+
+/* Global Classes */
+
+html,
+body {
+   font-family: 'Poppins', sans-serif;
+}
+
+body {
+   background-image: url(../Images/bg.png);
+   background-position: center;
+   background-size: cover;
+}
+
+a {
+   text-decoration: none;
+}
+
+.active a {
+   cursor: pointer;
+   color: var(--PrimaryColor);
+}
+
+.side_padding {
+   padding: 0 150px;
+}
+
+.padding_One {
+   padding: 50px 0;
+}
+
+.padding_Two {
+   padding: 80px 0;
+}
+
+.padding_Three {
+   padding: 120px 0;
+}
+
+/* Global Classes */
+
+.ownrow {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.owncol {
+   flex: 1 1 17rem;
+   text-align: center;
+   background-color: #042224;
+   margin: 0 20px;
+   padding: 40px 0;
+   border-radius: 24px;
+}
+
+.owncol h4 {
+   color: var(--MainColor);
+}
+
+.owncol svg {
+   font-size: 55px;
+   color: var(--PrimaryColor);
+   margin-bottom: 25px;
+}
+
+.owncol h4:last-child {
+   color: #23aab4;
+}
+
+.ownrow:hover {
+   cursor: pointer;
+}
+
+.owncol:hover {
+   background-color: var(--MainColor);
+}
+
+.owncol:hover h4 {
+   color: var(--Dark);
+}
+
+.owncol:hover h4:last-child {
+   color: #23aab4;
+}
+
+.owncol:hover svg {
+   transform: scale(1.4);
+}
+
+.mt-6 {
+   margin-top: 6rem;
+}
+
+.w-60 {
+   width: 70%;
+}
+
+.w-90 {
+   width: 100%;
+   /* height: 50vh !important; */
+}
+
+/* .w-85 {
+   width: 90%;
+   height: 50vh !important;
+} */
+/* 
+.w-40{
+   width: 100%;
+   height: 48vh;
+} */

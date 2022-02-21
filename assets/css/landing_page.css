@@ -1,0 +1,54 @@
+.bg{
+    background-image: url('../Images/Bgelements.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.custom_padding{
+    padding: 80px 0px 20px 0px;
+}
+
+.custom_text h1{
+    font-size: 60px;
+}
+
+.custom_text p{
+    font-size: 18px;
+}
+
+.custom_button{
+    padding:15px 50px;
+    border-radius: 60px;
+    background-color: var(--PrimaryColor);
+   border: none;
+}
+
+.custom_text h2{
+    color: var(--PrimaryColor);
+    font-size: 30px;
+}
+
+.warning_text{
+    color: red;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.bottom_text{
+    text-align: center;
+    font-size: 24px;
+    color: #5a5a5a;
+
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.center{
+    text-align: center;
+}

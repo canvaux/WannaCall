@@ -1,0 +1,52 @@
+/* buttons */
+.LoginButton {
+   border: 2px solid var(--PrimaryColor);
+   background-color: transparent;
+   border-radius: 30px;
+   padding: 0.2rem 1.4rem;
+   outline: none;
+   color: var(--MainColor);
+}
+.Download_button {
+   padding: 1rem 3.5rem;
+   border-radius: 12px;
+   background-color: var(--SecondaryColor);
+   color: var(--MainColor);
+   border: none;
+   font-size: 1.2rem;
+   position: relative;
+}
+.hand_img {
+   bottom: -20px;
+   right: -20px;
+   position: absolute;
+}
+.read_reviews {
+   padding: 0.8rem 2rem;
+   background-color: var(--PrimaryColor);
+   border-radius: 30px;
+   border: none;
+   color: var(--MainColor);
+   font-size: 1.2rem;
+}
+.Fill_Out_the_form {
+   padding: 0.5rem 2rem;
+   background-color: transparent;
+   border: 2px solid var(--MainColor);
+   color: var(--MainColor);
+   font-size: 1.3rem;
+   border-radius: 14px;
+}
+
+.Fill_Out_the_form_2 {
+   padding: 0.3rem 1.5rem;
+   margin-left: 35px;
+}
+.read_more_button {
+   padding: 0.8rem 2rem;
+   border-radius: 10px;
+   background-color: var(--PrimaryColor);
+   color: var(--MainColor);
+   border: none;
+}
+/* buttons */

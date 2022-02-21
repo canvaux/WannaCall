@@ -1,0 +1,87 @@
+footer ul li {
+   list-style: none;
+}
+
+.bottom_section {
+   padding: 0 150px;
+}
+
+.footer_para {
+   color: var(--MainColor);
+   font-size: 14px;
+}
+
+.footer_para2 {
+   color: var(--MainColor);
+   font-size: 18px;
+}
+
+.footer_heading {
+   color: #23aab4;
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 36px;
+}
+
+footer li a {
+   color: var(--MainColor);
+}
+
+footer li a:hover {
+   color: var(--SecondaryColor);
+}
+
+/* Form CSS */
+
+footer li a {
+   font-size: 18px;
+}
+
+footer .Field {
+   padding: 15px 60px 15px 20px;
+   border-radius: 53px;
+   border: none;
+   outline: none;
+}
+
+footer .Field:focus-visible {
+   outline: none;
+   outline-offset: none !important;
+}
+
+footer .Button {
+   background: var(--PrimaryColor);
+   padding: 15px 60px;
+   border-radius: 60px;
+   border: none;
+}
+
+footer .border-right {
+   border-right: 2px solid #ffffff;
+}
+
+/* Form CSS */
+
+.footer_background {
+   background-color: var(--PrimaryColor);
+}
+
+footer h4 {
+   font-size: 20px;
+}
+
+footer i {
+   background-color: var(--MainColor);
+   font-size: 20px;
+   border-radius: 50%;
+   color: var(--PrimaryColor);
+}
+
+footer .bicon {
+   padding: 10px 14px;
+   font-size: 20px;
+}
+
+footer .icon {
+   padding: 10px 12px;
+}
