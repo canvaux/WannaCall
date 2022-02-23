@@ -626,6 +626,9 @@
    .res_iamge_tow {
       width: 60%;
    }
+   .partnership_inner_content_div h3 {
+      font-size: 26px;
+   }
 }
 
 @media (max-width: 450px) {
