@@ -35,7 +35,7 @@
     <!-- header -->
     <header>
         <div class="container-fluid">
-            <div class="row dropdown_header dropdown_header_banner support_background py-4">
+            <div class="row dropdown_header dropdown_header_banner dropdown_header_banner_three py-4">
 
                 <div class="container-fluid side_padding py-3">
                     <div class="roww d-flex justify-content-between align-items-center">
@@ -51,28 +51,31 @@
                             <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                                 <div class="navbar-nav ">
                                     <a class="nav-item nav-link" href="./index.html">Home</a>
-                                    <a class="nav-item nav-link" href="./Legal.html"> Legal </a>
+                                    <a class="nav-item nav-link " href="./Legal.html"> Legal </a>
                                     <a class="nav-item nav-link" href="./Careers.html"> Careers </a>
                                     <a class="nav-item nav-link nav_active" href="./Support.html"> Support </a>
                                     <a class="nav-item nav-link" href="./release.html"> Press Release </a>
+
+                                    <a href="./Login.html" class="sm_nav_dv">
+                                        <button class="LoginButton me-3">
+                                            Login
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                         </nav>
 
                         <div class="collpor text-center d-flex align-items-center">
                             <div class="buttonclass d-flex ">
-                                <div class=" select LoginButton me-3">
-                                    <select class=" selectsection">
-                                        <option value="Eng">ENG</option>
-                                        <option value="HN">HN</option>
-                                    </select>
+                                <div class="language-settings LoginButton">
+                                    <div id="google_translate_element" value=""></div>
                                 </div>
                                 <div>
-                                    <button class="LoginButton me-3">
-                                        <a href="./Login.html">
+                                    <a href="./Login.html" class="login_button_div">
+                                        <button class="LoginButton me-3">
                                             Login
-                                        </a>
-                                    </button>
+                                        </button>
+                                    </a>
                                 </div>
                             </div>
                             <div class="header_incons_div">
@@ -93,8 +96,7 @@
                 <div class="row">
                     <div class="col-12 text-center">
                         <h1>Wanna Call <br>
-                            Support
-                        </h1>
+                            Legal
                     </div>
                 </div>
             </div>
@@ -349,7 +351,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-4">
                     <div>
                         <div class="text-center text-md-start">
-                            <img src="./assets/Images/logo.png">
+                            <img src="./assets/Images/logo.png" alt="">
                         </div>
                         <div>
                             <p class="text-center text-md-start footer_para pe-md-5 pe-sm-1 pt-4 pb-md-4 pb-sm-1">
@@ -411,7 +413,7 @@
                                 </a></li>
                             <li class="border-right pe-2 pe-sm-1 pe-lg-2 ps-2"><a href="./privacy.html"> Privacy Policy
                                 </a></li>
-                            <li class="pe-2 pe-sm-1 ps-2 pe-lg-2"><a href="./cookie.html"> Cookie Policy </a></li>
+                            <li class="pe-2 pe-sm-1 ps-2 pe-lg-2"><a href="./Cookies.html"> Cookie Policy </a></li>
                         </ul>
                     </div>
                 </div>
@@ -441,9 +443,10 @@
         </div>
     </footer>
     <!-- footer -->
-
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/home.js"></script>
 </body>
 
 </html>

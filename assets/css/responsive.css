@@ -321,7 +321,7 @@
       padding: 0 !important;
    }
    .res_image {
-      width: 70%;
+      width: 62%;
    }
 }
 
@@ -335,6 +335,12 @@
    .blog_cards_img_div h3 {
       font-size: 14px;
       line-height: normal;
+   }
+}
+
+@media (max-width: 1100px) {
+   .res_image {
+      width: 75%;
    }
 }
 
@@ -525,7 +531,7 @@
    }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 980px) {
    .navbar_button_div {
       display: none !important;
    }
@@ -534,6 +540,16 @@
    }
    .heading_lg_div {
       display: none;
+   }
+
+   .welcome_image_div {
+      display: block;
+   }
+   .image_second_div {
+      display: none;
+   }
+   .res_image {
+      width: 60%;
    }
 }
 
@@ -606,5 +622,20 @@
 
    header .buttonclass {
       margin-left: 10px;
+   }
+   .res_iamge_tow {
+      width: 60%;
+   }
+}
+
+@media (max-width: 450px) {
+   .header_incons_div {
+      display: none;
+   }
+   .sm_nav_dv {
+      display: block;
+   }
+   .login_button_div {
+      display: none;
    }
 }

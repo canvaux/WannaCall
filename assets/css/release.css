@@ -1,5 +1,6 @@
 .dropdown_header_banner_four {
-   background-image: url(../images/Press\ Release.png);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+      url(https://images.unsplash.com/photo-1579532536935-619928decd08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
    background-position: center;
    background-size: cover;
 }
@@ -32,7 +33,7 @@
    line-height: 35px;
 }
 
-.blog_detail{
+.blog_detail {
    background-image: url(../Images/Blog_Detail.png);
    background-position: center;
    background-size: cover;
@@ -144,10 +145,10 @@
    cursor: pointer;
 }
 
-.blog_cards:hover a{
-   color: var(--MainColor)
+.blog_cards:hover a {
+   color: var(--MainColor);
 }
 
-.blog_cards_content p{
+.blog_cards_content p {
    color: #000 !important;
 }

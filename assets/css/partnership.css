@@ -1,0 +1,78 @@
+.partnerships h1 {
+   color: var(--PrimaryColor);
+}
+
+.partnerships hr {
+   color: var(--MainColor);
+}
+
+.partnerships p {
+   color: var(--SmoothWhite);
+}
+
+.partnerships ul li {
+   color: var(--SmoothWhite);
+   margin-bottom: 0.3rem;
+}
+
+.partnership_card_div {
+   background-color: var(--MainColor);
+   border-radius: 12px;
+}
+
+.partnerships_div {
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+.partnership_inner_cl_div {
+   border-radius: 10px 0 0 10px;
+   background-image: url(../Images/partnetship_bg.png);
+   background-size: cover;
+   background-position: right;
+}
+
+.partnership_inner_cl_second {
+   border-radius: 10px 0 0 10px;
+   background-image: url(../Images/girls_imag.jpg);
+   background-size: cover;
+   background-position: right;
+}
+
+.partnership_inner_content_div h1 {
+   font-size: 34px;
+   font-weight: 700;
+}
+
+.partnership_inner_content_div h3 {
+   font-size: 40px;
+   font-weight: 700;
+   color: var(--PrimaryColor);
+}
+
+.partnership_inner_content_div p {
+   font-size: 14px;
+   color: var(--smoothGray);
+}
+
+.partnetship_input_div input,
+.partnetship_input_div textarea {
+   width: 100%;
+   height: 50px;
+   border-radius: 8px;
+   outline: none;
+   border: none;
+   padding: 1rem;
+   /* background-color: rgb(242, 242, 242); */
+   border: 1px solid var(--SmoothWhite);
+}
+
+.partnetship_input_div textarea {
+   height: 140px;
+}
+
+.partnetship_input_div label {
+   margin-bottom: 0.5rem;
+   font-weight: 600;
+   font-size: 13px;
+}

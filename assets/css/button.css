@@ -6,6 +6,7 @@
    padding: 0.2rem 1.4rem;
    outline: none;
    color: var(--MainColor);
+   margin-left: 1rem;
 }
 .Download_button {
    padding: 1rem 3.5rem;
