@@ -305,10 +305,6 @@ input.form-control::placeholder {
    background-color: var(--PrimaryColor);
 }
 
-footer {
-   background-color: var(--Dark);
-}
-
 .drop_shadow {
    box-shadow: 1px 0px 3px 0px black;
 }

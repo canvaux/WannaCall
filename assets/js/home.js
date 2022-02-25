@@ -21,14 +21,17 @@ const getTheDomElm = function () {
    childNodes[1].remove();
 };
 
+// 1 -> change first link url -> http://yourwebsitename.com/Wanncall;
+// 2 -> change your localhost url -> http://yourwebsitename.com/landing_page;
+
 const storeData = function () {
    localStorage.setItem('data', true);
-   window.location.replace('http://127.0.0.1:5501/WannaCall.html');
+   window.location.replace('http://localhost/wa/index');
 };
 
 const replacePlace = function () {
    const value = localStorage.getItem('data');
    if (!value) {
-      window.location.replace('http://127.0.0.1:5501/landing_page.html');
+      window.location.replace('http://localhost/wa/landing_page');
    }
 };
