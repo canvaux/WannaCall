@@ -668,4 +668,17 @@
    .looking_for h2 {
       font-size: 26px;
    }
+   .enterprise_div ul li {
+      font-size: 13px;
+   }
+   .looking_for h2 {
+      font-size: 22px;
+   }
+   .looking_for p {
+      font-size: 12px;
+   }
+   .Partner_up h1 {
+      font-size: 1.7rem;
+      padding-bottom: 0 !important;
+   }
 }

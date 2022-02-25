@@ -259,6 +259,10 @@ i {
    border: none;
 }
 
+.user_login_div {
+   padding: 1rem;
+}
+
 input.form-control::placeholder {
    padding-left: 20px;
 }
