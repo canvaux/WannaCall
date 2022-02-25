@@ -1,32 +1,32 @@
 .dropdown_header_banner {
-   background-image: url(../images/Privacy\ Banner.png);
+   /* background-image: url(../images/Privacy\ Banner.png); */
    background-position: center;
    background-size: cover;
 }
 .dropdown_header_banner_one {
-   background-image: url(../images/trem.png);
+   /* background-image: url(../images/trem.png); */
    background-position: center;
    background-size: cover;
 }
 .dropdown_header_banner_tow {
-   background-image: url(../images/co.png);
+   /* background-image: url(../images/co.png); */
    background-position: center;
    background-size: cover;
 }
 .career_background {
-   background-image: url(../images/career.png);
+   /* background-image: url(../images/career.png); */
    background-position: center;
    background-size: cover;
 }
 
 .support_background {
-   background-image: url(../Images/support_bg.png);
+   /* background-image: url(../Images/support_bg.png); */
    background-position: center;
    background-size: cover;
 }
 
 .dropdown_header_banner_three {
-   background-image: url(../images/legal.png);
+   /* background-image: url(../images/legal.png); */
    background-position: center;
    background-size: cover;
 }
@@ -53,7 +53,7 @@
 .dropdown_header_banner h1 {
    font-size: 80px;
    color: var(--MainColor);
-   padding: 5rem 0;
+   padding: 2rem 0;
 }
 
 .privacy_content_div h3 {
